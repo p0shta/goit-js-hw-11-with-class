@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заголовок страницы</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+  </head>
+  <body>
+    <main>
+      <header class="search">
+        <div class="container">
+          <form class="search__form" id="search-form">
+            <input
+              class="search__input"
+              type="text"
+              name="searchQuery"
+              autocomplete="off"
+              placeholder="Search images..."
+            />
+            <button class="search__btn" type="submit">
+              <img
+                class="search__icon"
+                src="./images/search-icon.svg"
+                alt="search-icon"
+                width="25"
+                height="25"
+              />
+            </button>
+          </form>
+        </div>
+      </header>
+      <section>
+        <div class="container">
+          <div class="gallery">
+            <!-- Карточки изображений -->
+          </div>
+          <button class="btn js-load-btn visually-hidden" type="button">Load more</button>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
