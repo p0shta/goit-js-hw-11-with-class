@@ -3,14 +3,14 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://p0shta.github.io/goit-js-hw-11/",
+  "homepage": "https://p0shta.github.io/goit-js-hw-11-with-class/",
   "scripts": {
     "dev": "parcel src/*.html --open chrome",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-11/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-11-with-class/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://p0shta.github.io/goit-js-hw-11.git"
+    "url": "git+https://p0shta.github.io/goit-js-hw-11-with-class.git"
   },
   "keywords": [],
   "author": "Maksym Pshenychnyi <maksim_pshenichniy@mail.ru>",
